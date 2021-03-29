@@ -1,0 +1,38 @@
+/* X-LARGE EKRANDA GÖRÜNÜM +1200 */
+@media only screen and (min-width : 1200px) {
+    .headermiddle {
+        display: flex !important;
+    }
+}
+
+/*768-1200*/
+@media only screen and (max-width : 1200px){
+    .top-img {
+        display: none;
+    }
+    .headermiddle .logodiv {
+        width: 100%;
+        justify-content: center !important;
+    }
+    .headermiddle .searchdiv {
+        width: 100%;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 25px;
+    }
+    .headermiddle .logindiv {
+        width: 100%;
+        justify-content: center !important;
+        margin-top: 25px;
+    }    
+}
+
+ /* 576-768*/
+@media only screen and (max-width : 768px){
+    .header-searchbox {
+        max-width: 440px;
+    }
+    .header-searchbox .searchinput {
+        max-width: 350px;
+    }
+}
