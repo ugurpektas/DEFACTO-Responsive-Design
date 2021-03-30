@@ -71,9 +71,15 @@
     }
     .categori .categorybox{
         width: 140px;
+        padding-bottom: 10px;
     }
     .categori .siparis {
-        margin-top: 20px;
+        margin-top: 25px;
+        padding-bottom: 0;
+    }
+    /*mega menü*/
+    .categorybox .megamenu {
+
     }
 }
 

@@ -335,7 +335,7 @@ nav .categori a.outlet{
     color: red;
 }
 nav .categori .siparis {
-    border: 1px solid orangered ;
+    border: 2px solid orangered ;
     color: orangered ;
     border-radius: 2px;
     cursor: pointer;
@@ -344,6 +344,30 @@ nav .categori .siparis a{
     font-size: 12px;
     vertical-align: text-top;
 }
-
+.categori .categorybox {
+    border-bottom: 2px solid transparent;
+}
+.categori .categorybox:hover {
+    border-bottom: 2px solid orangered;
+}
 
 /*MEGA MENÜ BAŞLANGIÇ*/
+.categorybox .megamenu {
+    display: block;
+    position: absolute;
+    height: auto;
+    padding: 25px;
+    top: 38px;
+    left: -1px;
+    transition: all 0.6s;
+}
+.categorybox .megamenu .yenigelenimg:hover {
+    border-color: orangered !important;
+}
+.categorybox .megamenu h6 a:hover {
+    color: orangered;
+}
+
+.categorybox:hover .megamenu {
+    display: block;
+}
