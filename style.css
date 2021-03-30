@@ -135,7 +135,6 @@ a {
     width: 23px ;
     height: auto;
     margin-right: 15px;
-    cursor: pointer;
     position: relative;
 }
 .logindiv .h-100:hover{
@@ -321,8 +320,9 @@ a {
 
 /**************NAV********************/
 nav .categori {
-    height: 33px;
-    margin-top: 15px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 nav .categori a {
     font-weight: bold;
@@ -344,3 +344,6 @@ nav .categori .siparis a{
     font-size: 12px;
     vertical-align: text-top;
 }
+
+
+/*MEGA MENÜ BAŞLANGIÇ*/
