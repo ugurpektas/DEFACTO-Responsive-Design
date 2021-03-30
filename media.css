@@ -35,9 +35,27 @@
         justify-content: center !important;
         margin-top: 25px;
     }
+    /*LOGİN BÖLÜMÜ POPOVER*/
     .searchdiv .inputbaloncuk {
         width: 603px !important;
     }
+    .flagbaloncuk {
+        width: 260px;
+    }
+    .sepetbaloncuk {
+        width: 260px;
+    }
+    .badge2 {
+        top: 35%;
+        right: 70px;
+    }
+    .sepetbaloncuk .bi {
+        margin-left: 70px;
+    }
+    .sepetbaloncuk p{
+        margin-left: 40px;
+    }
+    /***KATEGORİ BÖLÜMÜ***/
     .categori {
         margin-top: 130px !important;
     }
@@ -89,7 +107,7 @@
     }
     .sepetbaloncuk::before {
         top: -10px;
-        right: 25%;
+        right: 35%;
     }
     .sepetbaloncuk::after {
         width: 50%;
