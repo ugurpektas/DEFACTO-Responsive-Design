@@ -37,14 +37,26 @@
 
  /* 576-768*/
 @media only screen and (max-width : 768px){
+    /*searchbox*/
     .header-searchbox {
-        max-width: 440px;
+        max-width: 100%;
     }
-    .header-searchbox .searchinput {
-        max-width: 350px;
-    }
+    /*BALONCUKLAR BÖLÜMÜ*/
     .searchdiv .inputbaloncuk {
-        width: 438px !important;
+        width: 100% !important;
+    }
+    .flagbaloncuk {
+        top: 25px;
+        left: -35px;
+    }
+    .flagbaloncuk::before {
+        top: -10px;
+        left: 40px;
+    }
+    .flagbaloncuk::after {
+        top: -20px;
+        left: 0;
+        width: 30%;
     }
 }
 
