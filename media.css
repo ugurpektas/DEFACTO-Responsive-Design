@@ -8,7 +8,7 @@
     }
 }
 
-/*768-1200*/
+/*MEDIUM 768-1200*/
 @media only screen and (max-width : 1200px){
     /*logo*/
     .top-img {
@@ -35,7 +35,7 @@
     }   
 }
 
- /* 576-768*/
+ /*SMALL 500-768*/
 @media only screen and (max-width : 768px){
     /*searchbox*/
     .header-searchbox {
@@ -58,8 +58,15 @@
         left: 0;
         width: 30%;
     }
+    .sepetbaloncuk {
+        top: 75px;
+        right: -75px;
+    }
+    .sepetbaloncuk::before {
+        top: -10px;
+        right: 25%;
+    }
+    .sepetbaloncuk::after {
+        width: 50%;
+    }
 }
-
-/* @media only screen and (max-width : 576px){
-
-} */
