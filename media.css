@@ -8,7 +8,7 @@
     }
 }
 
-/*MEDIUM 768-1200*/
+/*LARGE EKRAN 996-1200*/
 @media only screen and (max-width : 1200px){
     /*logo*/
     .top-img {
@@ -32,8 +32,23 @@
     }
     .searchdiv .inputbaloncuk {
         width: 603px !important;
-    }   
+    }
+    .categori {
+        margin-top: 120px !important;
+    }
 }
+
+
+/* MEDIUM EKRAN 768 - 996*/
+@media only screen and (max-width : 996px) {
+    .categori {
+        flex-direction: column;
+    }
+    .categori .categorybox{
+        width: 15%;
+    }
+}
+
 
  /*SMALL 500-768*/
 @media only screen and (max-width : 768px){
@@ -69,4 +84,12 @@
     .sepetbaloncuk::after {
         width: 50%;
     }
+    /*Kategori bölümü*/
+    .categori .categorybox{
+        width: 25%;
+    }
+    .categori .siparis {
+        border: none !important;
+    }
+
 }
