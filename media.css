@@ -1,5 +1,8 @@
+
 /* X-LARGE EKRANDA GÖRÜNÜM +1200 */
+
 @media only screen and (min-width : 1200px) {
+    /*header container*/
     .headermiddle {
         display: flex !important;
     }
@@ -7,6 +10,7 @@
 
 /*768-1200*/
 @media only screen and (max-width : 1200px){
+    /*logo*/
     .top-img {
         display: none;
     }
@@ -14,6 +18,7 @@
         width: 100%;
         justify-content: center !important;
     }
+    /*searchbox div*/
     .headermiddle .searchdiv {
         width: 100%;
         align-items: center !important;
@@ -24,7 +29,10 @@
         width: 100%;
         justify-content: center !important;
         margin-top: 25px;
-    }    
+    }
+    .searchdiv .inputbaloncuk {
+        width: 603px !important;
+    }   
 }
 
  /* 576-768*/
@@ -35,4 +43,11 @@
     .header-searchbox .searchinput {
         max-width: 350px;
     }
+    .searchdiv .inputbaloncuk {
+        width: 438px !important;
+    }
 }
+
+/* @media only screen and (max-width : 576px){
+
+} */
