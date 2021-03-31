@@ -7,6 +7,9 @@ a {
     text-decoration: none;
     color: #000;
 }
+.topimgcont {
+    background: #f4eff1;
+}
 .top-img {
     margin-top: -5px;
 }
@@ -355,11 +358,13 @@ nav .categori .siparis a{
 .categorybox .megamenu {
     display: none;
     position: absolute;
+    background: #fff;
     height: auto;
     padding: 25px;
     top: 38px;
     left: -1px;
     transition: all 0.6s;
+    z-index: 150;   
 }
 .categorybox .megamenu::before {
     display: none;
@@ -395,4 +400,61 @@ nav .categori .siparis a{
 }
 .categorybox:hover .megamenu {
     display: block;
+}
+.megamenu img {
+    cursor: pointer;
+}
+
+/*section*/
+.main-board {
+    background: #f2f2f2;
+}
+.footer{
+    background: #f2f2f2;
+}
+.footer .footermain{
+    background: #f2f2f2;
+}
+.footercont {
+    width: 1210px;
+    height: auto;
+    background: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 30px;
+}
+.footer .footertop  i{
+    font-size: 25px;
+    color: orangered;
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+.footer .footertop span {
+    font-size: 14px;
+    line-height: 17px;
+}
+.footer .social {
+    background: #f2f2f2;
+    margin-left: 0;
+    margin-right: 0;
+}
+.footer .social span a{
+    font-size: 13px;
+    line-height: 28px;
+}
+.footer .social span a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+.footer .social i {
+    cursor: pointer;
+}
+.footer .social img {
+    cursor: pointer;
+}
+.footer .ziraatpng {
+    width: 100px;
+}
+.footer .credicards img{
+    cursor:pointer;
 }

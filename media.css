@@ -97,6 +97,13 @@
     .categori .megaOnecikan {
         margin-top: 25px;
     }
+    /*FOOTER BÖLÜMÜ*/
+    .footer .credicards {
+        flex-direction: column;
+    }
+    .footer .securelogo {
+        margin-bottom: 25px;
+    }
 }
 
 
@@ -146,15 +153,37 @@
         flex-direction: column;
         padding: 0 !important;
     }
+    /*FOOTER BÖLÜMÜ*/
+    .footer .credit {
+        flex-direction: column;
+    }
+    .footer .credit img {
+        width: 150px;
+        margin-bottom: 10px;
+    }
 }
 
 
 /* X-SMALL EKRAN GÖRÜNÜM*/
 @media only screen and (max-width : 576px) {
     /*mega menü*/
-
     .categori .megamenu {
         width: 300px !important;
     }
-
+    /*footer*/
+    .footer .footertop i {
+        padding: 0 !important;
+    }
+    .footer .footertop {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer .social {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .footer .social .dfmobile {
+        align-items: flex-start !important;
+        margin-top: 25px;
+    }
 }
