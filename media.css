@@ -1,6 +1,5 @@
 
 /* X-LARGE EKRANDA GÖRÜNÜM +1200 */
-
 @media only screen and (min-width : 1200px) {
     /*header container*/
     .headermiddle {
@@ -78,13 +77,30 @@
         padding-bottom: 0;
     }
     /*mega menü*/
-    .categorybox .megamenu {
-
+    .categori .megamenu {
+        padding: 5px;
+        width: 600px !important;
+        top: 0px;
+        left: 165px;
+    }
+    .categorybox .megamenu::before {
+        display: block;
+    }
+    .categori .megaAltcont {
+        flex-direction: column;
+    }
+    .categori .megaCategory {
+        text-align: center;
+        margin: 0 auto !important;
+        border: none !important;
+    }
+    .categori .megaOnecikan {
+        margin-top: 25px;
     }
 }
 
 
- /*SMALL 500-768*/
+ /*SMALL EKRAN GÖRÜNÜM 576-768*/
 @media only screen and (max-width : 768px){
     /*searchbox*/
     .header-searchbox {
@@ -121,6 +137,24 @@
     /*Kategori bölümü*/
     .categori .categorybox{
         width: 120px;
+    }
+    /*Mega container bölümü*/
+    .categori .megamenu {
+        width: 400px !important;
+    }
+    .categori .megamenu .megaDip {
+        flex-direction: column;
+        padding: 0 !important;
+    }
+}
+
+
+/* X-SMALL EKRAN GÖRÜNÜM*/
+@media only screen and (max-width : 576px) {
+    /*mega menü*/
+
+    .categori .megamenu {
+        width: 300px !important;
     }
 
 }

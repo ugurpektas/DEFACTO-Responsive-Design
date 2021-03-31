@@ -353,7 +353,7 @@ nav .categori .siparis a{
 
 /*MEGA MENÜ BAŞLANGIÇ*/
 .categorybox .megamenu {
-    display: block;
+    display: none;
     position: absolute;
     height: auto;
     padding: 25px;
@@ -361,13 +361,38 @@ nav .categori .siparis a{
     left: -1px;
     transition: all 0.6s;
 }
+.categorybox .megamenu::before {
+    display: none;
+    top: 15px;
+    left: -15px !important;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #000;
+    border-bottom: 10px solid transparent;
+    z-index: 50;
+}
+.categorybox .megamenu::after {
+    top: -25px;
+    left: -40px !important;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 60%;
+    border-top: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    z-index: 1;
+}
+
 .categorybox .megamenu .yenigelenimg:hover {
     border-color: orangered !important;
 }
 .categorybox .megamenu h6 a:hover {
     color: orangered;
 }
-
 .categorybox:hover .megamenu {
     display: block;
 }
